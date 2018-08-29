@@ -1,0 +1,127 @@
+/*Globals */
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+section {
+  width: 90%;
+  margin: 0 auto;
+}
+
+h1 {
+  font-family: "VT323", monospace;
+  text-align: center;
+  color: #fff;
+  font-size: 80px;
+  margin: 0px;
+  padding-top: 50px;
+}
+
+h3 {
+  font-family: "VT323", monospace;
+  text-align: center;
+  color: #090909;
+  font-size: 32px;
+  margin: 0px;
+  padding-top: 50px;
+}
+
+h4 {
+  font-family: "VT323", monospace;
+  font-size: 24px;
+}
+
+a {
+  color: #e60000;
+  font-family: "Barlow Semi Condensed", sans-serif;
+  font-size: 16px;
+}
+
+p {
+  font-family: "Barlow Semi Condensed", sans-serif;
+  font-size: 16px;
+}
+
+nav {
+
+}
+
+ul {
+  display: flex;
+}
+
+li {
+  padding: 10px;
+  color: white;
+  background-color: red;
+  list-style-type: none;
+  margin-left: 20px;
+}
+
+li a {
+  color: white;
+}
+
+header {
+  background-image: url("https://images.unsplash.com/photo-1508612227635-e7cbb9bdf54d?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=77a3b002e25d8ae4e281a8515017aaf4&auto=format&fit=crop&w=2520&q=80");
+  background-size: cover;
+  height: 300px;
+  width: 100%;
+  display: block;
+}
+
+.title-and-images {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 1em;
+}
+
+.astronaut-card-container {
+
+}
+
+.astronaut-card {
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 1em 0;
+  background-color: #f4f2f2;
+  color: #1c1c1c;
+}
+
+.astronaut-card-information {
+
+}
+
+.astronaut-card-information > h4 {
+  margin: 0;
+}
+
+.astronaut-img {
+
+}
+
+#facts {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.fact {
+  background-color: #f4f2f2;
+  color: #1c1c1c;
+}
+
+footer {
+  background-color: #1c1c1c;
+  color: white;
+  height: 3em;
+  padding: 1em;
+}
+
+footer p {
+  margin: 0;
+  padding: .5em;
+}
