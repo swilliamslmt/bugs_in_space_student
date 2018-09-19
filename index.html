@@ -9,26 +9,27 @@ I have a good picture of what I want in my images/website-mockup folder for you 
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <!-- I am missing fonts 'VT323' and Barlow Semi Condensed.  Help!! -->
+    <link href="https://fonts.googleapis.com/css?family=Barlow+Semi+Condensed|VT323" rel="stylesheet">
     <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
     <title>Debugging In Space</title>
     <header>
       <div id="title-and-images">
         <!-- Where are my bug images?  Help me fix this! -->
-        <img src="fly.gif">
+        <img src="/Users/stephaniewilliams/documents/codergirl/bugs_in_space_student/images/bugs/fly.gif"
         <h1>Debugging in Space</h1>
-        <img src="beetle.gif">
+        <img src="/Users/stephaniewilliams/documents/codergirl/bugs_in_space_student/images/bugs/beetle.gif"
       </div>
       <!-- On the a tags in the ul li secton below, I would like them to go to the right section when clicked. -->
       <nav>
         <ul>
           <li>
-            <a href="history">History of NASA</a>
+            <a href="#history">History of NASA</a>
           </li>
           <li>
-            <a href="astronauts">Famous Astronauts</a>
+            <a href="#astronauts">Famous Astronauts</a>
           </li>
           <li>
-            <a href="facts">Fun Facts</a>
+            <a href="#facts">Fun Facts</a>
           </li>
         </ul>
       </nav>
@@ -38,7 +39,7 @@ I have a good picture of what I want in my images/website-mockup folder for you 
   </head>
   <body>
     <section id="history">
-      <h3>Brief History of NASA</h3>
+      <h3 id="history">Brief History of NASA</h3>
       <p>During the late 1940s, the Department of Defense pursued research and rocketry and upper atmospheric sciences as a means
         of assuring American leadership in technology. A major step forward came when President Dwight D. Eisenhower approved
         a plan to orbit a scientific satellite as part of the International Geophysical Year (IGY) for the period, July 1,
@@ -55,9 +56,9 @@ I have a good picture of what I want in my images/website-mockup folder for you 
     </section>
     <!-- Hmm, looks like my font color is red for some reason. -->
     <section id="astronauts">
-      <h3>Famous Astronauts</h3>
+      <h3 id="astronauts">Famous Astronauts</h3>
       <div class="astronaut-card-container">
-        <div class="astronaut-card" style="color: red">
+        <div class="astronaut-card" style="color: black">
           <img class="astronaut-img" src="images/sally_ride.jpg">
           <div class="astronaut-card-information">
             <h4>Sally Ride</h4>
@@ -69,7 +70,7 @@ I have a good picture of what I want in my images/website-mockup folder for you 
             </p>
           </div>
         </div>
-        <div class="astronaut-card" style="color: red">
+        <div class="astronaut-card" style="color: black">
           <img class="astronaut-img" src="images/mae_jemison.jpg">
           <div class="astronaut-card-information">
             <h4>Mae Jemison</h4>
@@ -83,7 +84,7 @@ I have a good picture of what I want in my images/website-mockup folder for you 
             </p>
           </div>
         </div>
-        <div class="astronaut-card" style="color: red">
+        <div class="astronaut-card" style="color: black">
           <img class="astronaut-img" src="judith_resnik.jpg">
           <div class="astronaut-card-information">
             <h4>Judith Resnik</h4>
@@ -98,7 +99,7 @@ I have a good picture of what I want in my images/website-mockup folder for you 
       </div>
     </section>
     <section id="facts">
-      <h3>Fun Facts About NASA</h3>
+      <h3 id="facts">Fun Facts About NASA</h3>
       <div>
         <div>
           <p>Fast facts about NASA and space!
